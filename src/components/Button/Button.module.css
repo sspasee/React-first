@@ -1,0 +1,17 @@
+.button {
+padding: 0.8rem 2rem ;
+border: none;
+border-radius: 5px ;
+cursor: pointer;
+transition: all 0.3s;
+font-weight: bold;
+margin-right: 1rem;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.button.active {
+    background: rgba(32, 32, 254, 0.848);
+    color: #fff;
+}
+
